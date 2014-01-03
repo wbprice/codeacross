@@ -35,8 +35,13 @@
 		line-height: 1.25em;
 	}
 
-	#events, #challenges, #donors, #faq, #contact, #activies {
+	section {
 		padding: 2em 0;
+	}
+
+	section img {
+		width: 100%;
+		margin-bottom: 1em;
 	}
 
 	/***************
@@ -115,6 +120,7 @@
 
 	#challenges {
 		background: #cf1b41;
+		color: white;
 	}
 
 	#challenges div {
@@ -125,7 +131,7 @@
 		display: block;
 		max-width: 400px;
 		margin: .5em auto;
-		margin-bottom: 0;
+		margin-bottom: 1em;
 	}
 
 	#challenges h1 {
