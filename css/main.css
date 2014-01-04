@@ -35,6 +35,11 @@
 		line-height: 1.25em;
 	}
 
+	a {
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
 	section {
 		padding: 2em 0;
 	}
@@ -238,9 +243,7 @@
 		margin-bottom: 1em;
 	}
 
-	h2, h3 {
-		text-align: left;
-	}
+
 
 	/********************
 	Preamble
